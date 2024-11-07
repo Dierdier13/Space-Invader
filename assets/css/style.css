@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+margin-top: 100px;
+}
+
+#start button{
+    cursor: pointer;
+    font-size: 100px;
+    color: rgb(255, 214, 80);
+    font-family: "Pixelify Sans", sans-serif;
+    border: 3px solid rgb(255, 78, 25);
+    border-radius: 25px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    height: 700px;
+    width: 1000px;
+
+    div {
+        color: white;
+        text-align: center;
+        width: 100px;
+        height: 70px;
+    }
+}
+
+#winner h1{
+    font-size: 100px;
+    color: rgb(255, 214, 80);
+    font-family: "Pixelify Sans", sans-serif;
+    border: 3px solid rgb(255, 78, 25);
+    border-radius: 25px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#restart button{
+    cursor: pointer;
+    font-size: 100px;
+    color: rgb(255, 214, 80);
+    font-family: "Pixelify Sans", sans-serif;
+    border: 3px solid rgb(255, 78, 25);
+    border-radius: 25px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 90%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
